@@ -9,6 +9,7 @@ RUN  apt-get update && \
         php-imagick \
         php-zmq \
         php-zip \
+        php-curl \
         php7.1 \
         php7.1-cli \
         php7.1-fpm \
