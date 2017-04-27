@@ -19,6 +19,7 @@ RUN  apt-get update && \
         php7.1-pgsql \
         php7.1-mbstring \
         php7.1-mcrypt \
+        php7.1-xml \
         php7.1-xmlrpc \
         php7.1-gd && \
     apt-get -y -f purge  software-properties-common \
